@@ -1,4 +1,4 @@
-import CommunityLayout from "@layout/Community";
+import CommunityLayout from "@layout/Community/Community";
 
 const Community = () => {
   return <CommunityLayout />;
