@@ -1,3 +1,4 @@
+import Community from "@pages/Community";
 import Main from "@pages/Main";
 import store from "@stores/index";
 import { Provider } from "react-redux";
@@ -10,6 +11,7 @@ function App() {
       <Provider store={store}>
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/Community" element={<Community />} />
         </Routes>
       </Provider>
     </BrowserRouter>
